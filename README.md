@@ -1,4 +1,4 @@
-###naming conventions in java.
+#naming conventions in java.
 
 1) Packages should always be in lower case. example: package sortings;
 2) Class names should always begin with upper case. example: class MyClass.
