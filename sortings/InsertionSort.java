@@ -19,7 +19,7 @@ public class InsertionSort {
 
     private static void insertion(int[] arr, int n){
 
-        //lets start iterating the array.
+        //let's start iterating the array.
         for (int i = 0; i < n; i++) {
             //some optimizations
             int card = arr[i];
