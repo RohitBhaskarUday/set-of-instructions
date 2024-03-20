@@ -12,7 +12,7 @@ public class LinearSearch {
         System.out.println("Enter the number to be linearly search: ");
         int n = sc.nextInt();
 
-        //iterate through the array from the begining to the end
+        //iterate through the array from the beginning to the end
         for (int i = 0; i < arr.length; i++) {
             if(arr[i] == n){
                 System.out.println(n+" is in the position "+i +" of the array");

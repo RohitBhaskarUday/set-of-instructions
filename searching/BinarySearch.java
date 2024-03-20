@@ -1,7 +1,14 @@
 package searching;
 
 import java.util.Scanner;
-
+/*
+* Binary search works in such a way that the array should always be sorted.
+* Once the array is sorted. it starts dividing the array into two half and
+* it checks if the middle element is less than or greater than
+* then it changes the start -- end positions accordingly.
+* this continues till the element is found
+* it avoids unnecessary scanning of the elements which helps in the TC.
+*/
 public class BinarySearch {
     public static void main(String[] args) {
 
@@ -29,18 +36,16 @@ public class BinarySearch {
 
 
     private static int binarySearch(int[] arr, int element){
-        int start = 0;
-        int end = arr.length-1;
-
-        while (start<=end){
-            int middle = (start+end)/2;
-            if(arr[middle]>element){
-                end = middle-1;
+        int low = 0;
+        int high = arr.length-1;
+        while (low<=high){
+            int mid = (low+high)/2;
+            if(element<arr[mid]){
+                high = mid-1;
+            } else if (element>arr[mid]) {
+                low = mid+1;
             }
-            else if (arr[middle]<element){
-                start = middle+1;
-            }
-            else return middle;
+            else return mid;
         }
         return -1;
     }
