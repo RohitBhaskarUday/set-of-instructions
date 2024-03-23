@@ -34,12 +34,7 @@ public class ImplementHashMap {
 
 
         // For creating adjacency list in graphs.
-        Map<Integer, List<Integer>> adj = new HashMap<>();
-        //1-2 3-5 1-3
-        if(adj.get(1) == null){
-            adj.put(1, new ArrayList<>());
-            adj.get(1).add(2);
-        }
+
 
 
 
