@@ -4,7 +4,7 @@ public class QuickSort {
     public static void main(String[] args) {
 
         //initialize the array to be sorted.
-        int[] arr = {5,4,3,2,1};
+        int[] arr = {4 ,3, 8, 4, 6 ,5};
 
         int low = 0;
         int high = arr.length-1;
@@ -20,7 +20,7 @@ public class QuickSort {
     private static void quickSort(int[] arr, int low, int high){
         if (low<high){
             int pivotIndex = partition(arr, low,high);
-            quickSort(arr, low, pivotIndex);
+            quickSort(arr, low, pivotIndex-1);
             quickSort(arr,pivotIndex+1,high);
         }
     }
