@@ -22,6 +22,16 @@ public class ImplementArraysandMethods {
         }
         System.out.println("Index not found");
 
+        //initially all the arrays have intitialized with 0 value
+        int[] nums = new int[10];
+        for(int i : nums){
+            System.out.println(i);
+        }
+
+        //maximum size of the array is 10^6 inside main()
+        //but globally size of array is 10^7 outside main() that is globally.
+
+
 
 
 
