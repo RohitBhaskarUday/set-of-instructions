@@ -28,8 +28,25 @@ public class ImplementArraysandMethods {
             System.out.println(i);
         }
 
+        System.out.println("modulo "+5%5);
+
         //maximum size of the array is 10^6 inside main()
         //but globally size of array is 10^7 outside main() that is globally.
+
+
+        int[] arr1 = {1,2,3,4,5};
+        int size = arr1.length-1;
+        for(int i = 0;i<arr1.length;i++){
+            int temp = arr1[i];
+            arr1[i] = arr1[size];
+            arr1[size] = temp;
+            size--;
+        }
+
+
+        for(int i: arr1){
+            System.out.print(i +" ");
+        }
 
 
 

@@ -23,6 +23,8 @@ public class MergeSortWithoutExtraSpace {
 
     }
 
+    //this is not the actual without extra space merge sort. We need to implement that.
+
     private static void mergeSort(int[] arr, int low, int high){
         if (low<high){
             int mid = (low+high)/2;
