@@ -4,7 +4,7 @@ public class RotateArrayOptimized {
     public static void main(String[] args) {
 
         int[] nums = {10, 20, 30, 40, 50, 60, 70, 80};
-        int[] numsLeft = {1,2,3,4,5,6,7};
+        int[] numsLeft = {10, 20, 30, 40, 50, 60, 70, 80};
 
         int k = 3;
         int n = nums.length;
@@ -20,7 +20,7 @@ public class RotateArrayOptimized {
 
         //same approach for the array rotating left.
         reverse(numsLeft, 0,k-1);
-        reverse(numsLeft, n1-k-1, n1-1);
+        reverse(numsLeft, k, n1-1);
         reverse(numsLeft, 0, n1-1);
 
 
