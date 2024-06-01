@@ -10,8 +10,6 @@ public class ImplementArraysandMethods {
 
         sc.close();
 
-
-
         // lets call linear search in this
         //initialize the array
         int[] arr  = {1,6,7,8,2,1,2,3};

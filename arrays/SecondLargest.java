@@ -32,6 +32,24 @@ public class SecondLargest {
 
         System.out.println(secondMax+" "+secondMin);
 
+        System.out.println("The Second Largest opti "+SecondL(arr));
 
+
+    }
+
+
+    public static int SecondL(int[] arr){
+        int n = arr.length;
+        int Largest = Integer.MIN_VALUE;
+        int SLargest = -1;
+        for(int i = 0; i<n; i++){
+            if(arr[i]>Largest){
+                Largest = arr[i];
+            } else if (arr[i]>SLargest && arr[i]<Largest) {
+                SLargest = arr[i];
+            }
+        }
+
+        return SLargest;
     }
 }

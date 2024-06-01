@@ -28,12 +28,6 @@ public class RemoveDuplicates {
             }
         }
 
-
-
-
-
-
-
         for(Integer i: arr){
             System.out.print(i+" ");
         }
