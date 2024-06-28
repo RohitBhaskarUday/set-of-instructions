@@ -7,6 +7,7 @@ public class Employee {
         Person per = new Person();
         per.getProfession();
 
+
         per.getAge(); // default method accessible within this package
     }
 }
