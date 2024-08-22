@@ -8,3 +8,13 @@
 6) Constants should have uppercase. example: MAX_VALUE, INT_MAX, PI.
 7) Boolean variables and methods should have question type naming conventions for example: isPrime(), hasData.
 8) Getters and Setters should have the conventions like getPropertyName, setPropertyName.
+
+# Conventions for Generics Declaration.
+The most commonly used type parameter names are:
+
+E - Element (used extensively by the Java Collections Framework)
+K - Key
+N - Number
+T - Type
+V - Value
+S,U,V etc. - 2nd, 3rd, 4th types
