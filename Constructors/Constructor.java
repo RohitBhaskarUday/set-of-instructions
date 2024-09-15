@@ -14,7 +14,7 @@ public class Constructor {
         name = empName;
         //
     } // now this is constructor overloaded.
-    // we cannot over ride it because there will be naming convention error
+    // we cannot override it because there will be naming convention error
 
     //private Constructor(){
     // this will only allow only for this class to create an object
