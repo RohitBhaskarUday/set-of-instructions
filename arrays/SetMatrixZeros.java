@@ -8,8 +8,6 @@ public class SetMatrixZeros {
 
         int n  = arr.length;
 
-
-
 //        for(int i=0; i<n;i++){
 //            reverse(arr[i]);
 //        }

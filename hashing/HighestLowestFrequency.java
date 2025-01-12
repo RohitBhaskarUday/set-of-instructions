@@ -50,6 +50,21 @@ public class HighestLowestFrequency {
 
         System.out.println(maxElement+ " "+ minElement);
 
+        String[] strs = {"flower","flow","flight"};
+
+        char[] str1 = {'1','2','3'};
+        int value = str1[1]-'0';
+
+        int a = 1;
+        String res = "100";
+
+        for(int i = 0; i < res.length(); i++){
+           int val = res.charAt(i)-'0';
+            System.out.println(val);
+
+        }
+
+
 
 
     }
