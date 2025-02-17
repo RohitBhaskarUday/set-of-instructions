@@ -1,5 +1,8 @@
 package string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Misc {
     public static void main(String[] args) {
 
@@ -28,6 +31,48 @@ public class Misc {
         System.out.println(sb);
 
         System.out.println(sb.substring(0,1));
+
+        int x = 1534236469;
+
+        int v = Integer.MAX_VALUE;
+        System.out.println(v);
+
+        int rev = 0;
+        while(x!=0){
+            int n = x%10;
+            rev = rev*10+n;
+            x = x/10;
+        }
+        System.out.println(rev);
+
+        if(v>rev){
+            System.out.println(true);
+        }
+
+        System.out.println(x);
+
+
+        String stringo = "dog cat dog cat";
+        String pattern = "abba";
+
+       String[] small = stringo.split(" ");
+
+
+       Map<Character, String> map = new HashMap<>();
+
+       for(int i=0; i<pattern.length(); i++){
+           char c = pattern.charAt(i);
+           if(map.containsKey(c)){
+
+           }
+
+       }
+
+
+
+
+
+
 
 
 

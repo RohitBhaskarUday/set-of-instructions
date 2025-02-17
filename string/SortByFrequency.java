@@ -26,7 +26,13 @@ public class SortByFrequency {
             }
         }
 
+        char s = '0';
+        int a = s-'0';
+        System.out.println("a is "+a);
+
+
         System.out.println(sb);
+        System.out.println(0*-1);
 
 
     }
